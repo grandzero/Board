@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter var", sans-serif;
+}
+  
+
+.droppable-col {
+  width: 100%;
+  background-color: rgb(242, 245, 249);
+  padding: 10px 10px 0 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow:initial;
+}
+
+.item {
+  margin-bottom: 10px;
+  background-color: white;
+  color: rgb(38, 53, 144);
+  border: 1px solid white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.item.dragging {
+  background-color: coral;
+}
+.title {
+  color: rgb(38, 53, 144);
+}
+
+.addCardBtn{
+  border:none;
+  background-color: rgb(242, 245, 249);
+  color: rgba(9, 30, 66, 0.42);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.addCardBtn:hover{
+background-color: rgb(212, 213, 216);
+border-radius: 3px;
+color:black;
+}
+.editLabelsBtn{
+  color:rgb(38, 53, 144); 
+  font-size:0.8125rem;
+  font-weight:600;
+  border:none;
+  background-color: white;
+  padding:5px;
+  border-radius: 3px;
+  
+}
+.editLabelsBtn:hover{
+  background-color: rgb(242, 245, 249);
+}
